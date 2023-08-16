@@ -1,0 +1,50 @@
+<html>
+    <head>
+       <title>Transcribe Text Via Speech and Lip Movements</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Roboto&display=swap" rel="stylesheet">
+
+<link href="style.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a href="" id="link" download="myselfie.png"></a>
+        <div class="header_div">
+        <h1>Transcribe Text Via Speech and Lip Movements
+        </h1>
+        </div>
+        <hr>
+        <h4>Please press allow as soon as popup comes. After that, start speaking</h4>
+        
+        <div class="form-group">
+        <h3>Say something</h3>
+        <label>Your voice output : </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+        </div>
+
+        <button class="btn btn-primary" onclick="start()">Start</button>
+        <p>Press the Start button</p>
+
+        <label>Your webcam : </label>
+        <div id="camera"></div>
+
+    </center>
+    </div>
+            
+    <div class="copy_right_footer">
+        Developed by - Group: Apple of Your Eyes (Jiwon, Sophie, Ashley)
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
